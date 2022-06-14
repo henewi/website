@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'hero';
+    src: url(./fonts/Hero-Regular.ttf);
+}
+
 body {
     border: 0;
     margin: 0;
@@ -16,12 +21,34 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+
+.leftheadings {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.rightheadings {
+    color: white;
+    display: flex;
+    font-family: "hero", sans-serif;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    display: flex;
 }
 
 .name {
     color: white;
+    font-family: "hero", sans-serif;
+    font-weight: 900;
 }
 
 /* LOGO TOP LEFT */
@@ -36,9 +63,11 @@ header {
     text-align: center;
     justify-content: center;
     margin: 20px;
+    flex-shrink: 1;
 }
 
 .logo {
     height:70px;
     border-radius: 50%;
+    flex-shrink: 1;
 }
