@@ -19,30 +19,40 @@ body {
 
 /* HEADER BAR ACROSS TOP */
 
-header {
+.header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 2px;
 }
 
-.leftheadings {
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.leftheadings, .rightheadings {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    gap: 16px;
 }
 
 .rightheadings {
     color: white;
-    display: flex;
     font-family: "hero", sans-serif;
-    justify-content: flex-end;
+    text-decoration: none;
 }
 
 ul {
     display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
 
 li {
-    display: flex;
+    text-decoration: none;
 }
 
 .name {
@@ -63,11 +73,11 @@ li {
     text-align: center;
     justify-content: center;
     margin: 20px;
-    flex-shrink: 1;
+    flex-shrink: 0;
 }
 
 .logo {
     height:70px;
     border-radius: 50%;
-    flex-shrink: 1;
+    flex-shrink: 0;
 }
