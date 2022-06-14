@@ -9,6 +9,16 @@ body {
     padding: 0;
 }
 
+/* SECTION 1 STUFF */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    background-color: #1f2937;
+    padding-right: 20%;
+}
+
 .section1 {
     background-color: #1f2937;
     margin: 0px;
@@ -34,7 +44,6 @@ a {
 .leftheadings, .rightheadings {
     display: flex;
     align-items: center;
-    gap: 16px;
 }
 
 .rightheadings {
@@ -47,7 +56,7 @@ ul {
     display: flex;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 30px;
     gap: 16px;
 }
 
@@ -59,14 +68,15 @@ li {
     color: white;
     font-family: "hero", sans-serif;
     font-weight: 900;
+    font-size: 20px;
 }
 
 /* LOGO TOP LEFT */
 
 .logoborder {
     background-color: white;
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -77,7 +87,54 @@ li {
 }
 
 .logo {
-    height:70px;
+    height:35px;
     border-radius: 50%;
     flex-shrink: 0;
+}
+
+/* TORSO */ 
+
+.torso {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.bulk {
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: "hero";
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.heading {
+    font-weight: 700;
+}
+
+.torso.text {
+    font-style: italic;
+}
+
+button {
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: "hero";
+    align-items: center;
+    font-weight: 600;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.picture {
+    display: flex;
+    flex: 1 1 0;
+    height: 200px;
+    width: auto;
+    margin: 30px;
+    padding: 5px;
+    background-color: white;
 }
