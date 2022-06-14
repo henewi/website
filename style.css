@@ -49,6 +49,7 @@ a {
 .rightheadings {
     color: white;
     font-family: "hero", sans-serif;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -68,7 +69,7 @@ li {
     color: white;
     font-family: "hero", sans-serif;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 32px;
 }
 
 /* LOGO TOP LEFT */
@@ -110,10 +111,12 @@ li {
 
 .heading {
     font-weight: 700;
+    font-size: 28px;
 }
 
 .torso.text {
     font-style: italic;
+    font-size: 24px;
 }
 
 button {
@@ -121,6 +124,7 @@ button {
     text-decoration: none;
     font-family: "hero";
     align-items: center;
+    font-size: 20px;
     font-weight: 600;
     background-color:#3881f6;
     color: white;
@@ -149,7 +153,7 @@ button {
 }
 
 #header2 {
-    font-size: 18px;
+    font-size: 24px;
     font-family: "hero";
     font-weight: 700;
     margin-top: 45px;
@@ -165,15 +169,18 @@ button {
 #smalltext {
     font-family: "hero";
     font-style: italic;
+    font-size: 20px;
 }
 
 .boxes {
     margin: 20px;
     display: flex;
+    font-size: 20px;
 }
 
 .boxpics {
-    margin: 10px;
+    margin: 20px;
+    font-size: 20px;
     border-radius: 10px;
     height: 120px;
     width: 120px;
@@ -187,7 +194,7 @@ button {
     justify-content: center;
     align-items: center;
     font-family: "hero";
-    font-size: 12px;
+    font-size: 16px;
     font-style: italic;
 }
 
@@ -209,6 +216,7 @@ button {
     color: white;
     font-family: "hero";
     font-style: italic;
+    font-size: 24px;
 }
 
 /* SECTION 4 */ 
@@ -239,10 +247,11 @@ button {
 
 #texticles {
     font-weight: 700;
+    font-size: 24px;
 }
 
 #tinytexticles {
-    font-size: 10px;
+    font-size: 16px;
     font-style: italic;
 }
 
