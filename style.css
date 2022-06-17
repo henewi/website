@@ -122,7 +122,7 @@ button {
     font-family: "hero";
     align-items: center;
     font-weight: 600;
-    background-color: #3882F6;
+    background-color:#3881f6;
     color: white;
     border: none;
     border-radius: 5px;
@@ -189,4 +189,71 @@ button {
     font-family: "hero";
     font-size: 12px;
     font-style: italic;
+}
+
+/* SECTION 3 */
+
+.section3 {
+    margin: 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #1f2937;
+}
+
+.littlepara {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "hero";
+    font-style: italic;
+}
+
+/* SECTION 4 */ 
+
+.section4 {
+    margin: 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: white;
+}
+
+.finalbox {
+    display: flex;
+    margin: 40px;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    font-family: "hero";
+    color: white;
+    background-color:#1f2937;
+    border-radius: 7px;
+}
+
+.finalbox.button {
+    background-color: white;
+}
+
+#texticles {
+    font-weight: 700;
+}
+
+#tinytexticles {
+    font-size: 10px;
+    font-style: italic;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #e6e6e6;
+    justify-content: center;
+    font-size: 12px;
+    font-family: "hero";
+    font-weight: 00;
 }
